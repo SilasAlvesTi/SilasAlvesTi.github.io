@@ -1,9 +1,15 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #7C5E99;
     border-bottom: 10px solid #000000;
     padding: 10px 20px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FFFFFF;
 }
 
 nav {
@@ -35,11 +41,9 @@ a::before {
     box-shadow: 5px 5px 0px #000000;
     padding: 18px 20px;
     margin-right: 0px;
+    transition: transform 100ms linear;
 }
 
 #button:hover {
-    margin-right: 5px;
-    margin-left: -5px;
-    box-shadow: 7px 7px 0px #000000;
-    color: #000000;
+    transform: scale(1.08);
 }
